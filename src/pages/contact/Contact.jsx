@@ -161,12 +161,12 @@ export default function Contact() {
                                     Kanakpura, Jaipur - 302012<br />
                                 </p>
                                 <div className="flex flex-col gap-2 text-sm font-medium">
-                                    <span className="flex items-center gap-3 text-slate-600">
+                                    <a href="tel:+918890001903" className="flex items-center gap-3 text-slate-600 hover:text-brand-600 transition-colors">
                                         <Phone className="w-4 h-4 text-brand-500" /> +91 88900 01903
-                                    </span>
-                                    <span className="flex items-center gap-3 text-slate-600">
+                                    </a>
+                                    <a href="mailto:info@caprionpharma.com" className="flex items-center gap-3 text-slate-600 hover:text-brand-600 transition-colors">
                                         <Mail className="w-4 h-4 text-brand-500" /> info@caprionpharma.com
-                                    </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>

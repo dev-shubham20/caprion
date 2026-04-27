@@ -27,10 +27,10 @@ export default function Footer() {
           <div className="md:pl-8 md:border-l-[1.5px] md:border-[#b5dbfd] flex flex-col justify-start">
             <h3 className="text-[18px] font-bold text-[#8cc63f] mb-4">Contact</h3>
             <p className="text-[#333333] font-medium text-[15px] leading-relaxed mb-1">
-              <span className="font-bold">T:</span> +91 88900 01903
+              <span className="font-bold">T:</span> <a href="tel:+918890001903" className="hover:text-[#8cc63f] transition-colors">+91 88900 01903</a>
             </p>
             <p className="text-[#333333] font-medium text-[15px] leading-relaxed mb-6">
-              <span className="font-bold">E:</span> info@caprionpharma.com
+              <span className="font-bold">E:</span> <a href="mailto:info@caprionpharma.com" className="hover:text-[#8cc63f] transition-colors">info@caprionpharma.com</a>
             </p>
             <div className="flex gap-4">
               <a href="#" aria-label="Instagram"
@@ -61,7 +61,7 @@ export default function Footer() {
             <h3 className="text-[18px] font-bold text-[#8cc63f] mb-4">Quick Links</h3>
             <ul className="text-[#333333] font-medium text-[15px] leading-relaxed space-y-2">
               <li><Link to="/about" className="transition-colors hover:text-[#8cc63f]">About Us</Link></li>
-              <li><Link to="/#focus" className="transition-colors hover:text-[#8cc63f]">Therapy Focus</Link></li>
+              <li><Link to="/career" className="transition-colors hover:text-[#8cc63f]">Career</Link></li>
               <li><Link to="/portfolio" className="transition-colors hover:text-[#8cc63f]">Brand Portfolio</Link></li>
               <li><Link to="/contact" className="transition-colors hover:text-[#8cc63f]">Contact Us</Link></li>
             </ul>
