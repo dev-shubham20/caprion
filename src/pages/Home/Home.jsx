@@ -237,6 +237,7 @@ export default function Home() {
                     "Our Strength Lies in Building Enduring Partnerships That Drive Better Healthcare Outcomes."
                 </p>
             </div>
+
             {/* Mobile Quote Version (No Clip Path) */}
             <div className="md:hidden bg-gradient-to-br from-[#1193f2] to-[#0a5ca3] px-6 py-12 text-center text-white rounded-2xl mx-4">
                 <p className="text-[18px] font-medium leading-relaxed italic">
@@ -324,7 +325,7 @@ export default function Home() {
 
             {/* core values section start */}
             <section className="w-full">
-                <div className="stats-grid rounded-tr-[50px] md:rounded-tr-[100px] rounded-bl-[50px] md:rounded-bl-[100px] grid grid-cols-2 lg:grid-cols-4 gap-4 px-4">
+                <div className="stats-grid rounded-tr-[50px] md:rounded-tr-[100px] rounded-bl-[50px] md:rounded-bl-[100px] grid grid-cols-2 lg:grid-cols-4 gap-4">
                     {[
                         { img: integrityIcon, title: "Built On Integrity" },
                         { img: patientIcon, title: "Patient-First Mindset" },
@@ -347,9 +348,9 @@ export default function Home() {
                 <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-gradient-to-bl from-blue-50 to-transparent opacity-60 blur-3xl pointer-events-none"></div>
                 <div className="absolute bottom-0 left-0 w-1/4 h-1/4 bg-gradient-to-tr from-green-50 to-transparent opacity-60 blur-3xl pointer-events-none"></div>
                 
-                <div className="site-shell relative z-10 px-4">
-                    <div className="max-w-5xl mx-auto">
-                        <div className="flex items-center gap-4 md:gap-6 mb-10 md:mb-12 animate-fade-in justify-center">
+                <div className="site-shell relative z-10">
+                    <div className="mx-auto">
+                        <div className="flex items-center gap-4 md:gap-6 mb-8 md:mb-12 animate-fade-in justify-center">
                             <span className="h-[1px] w-8 md:w-12 bg-slate-200"></span>
                             <span className="heading-primary !text-[24px] md:!text-[36px]">
                                 From Director’s Desk
@@ -362,15 +363,27 @@ export default function Home() {
                                 &ldquo;
                             </div>
                             
-                            <h2 className="text-[17px] sm:text-[22px] md:text-[28px] font-medium text-slate-900 leading-relaxed md:leading-[1.5] relative z-10 italic tracking-tight">
-                                With over two decades of transformative leadership, we have steered <span className="text-[#1193f2] not-italic font-extrabold">Caprion Pharma</span> toward becoming a beacon of quality and patient-centric innovation. Our vision is rooted in building sustainable healthcare solutions that resonate with excellence and accessibility globally.
+                            <h2 className="text-[17px] sm:text-[18px] md:text-[22px] font-medium text-slate-900 leading-relaxed md:leading-[1.4] relative z-10 italic tracking-tight mb-10">
+                                &ldquo;Leadership is not about being in charge, it is about taking care of those in your charge.&rdquo;
                             </h2>
+
+                            <div className="text-slate-500 text-sm md:text-base leading-relaxed space-y-6 text-center">
+                                <p>
+                                    With over 25 years of extensive experience in the pharmaceutical industry, Mr. Mohit Gupta serves as a visionary Director dedicated to driving innovation, quality, and sustainable growth. His deep understanding of the sector, combined with a commitment to excellence, has played a pivotal role in shaping the company’s strategic direction and strengthening its market presence.
+                                </p>
+                                <p>
+                                    Under his leadership, the organization has consistently focused on delivering high-quality healthcare solutions while adhering to the highest standards of ethics and compliance. Mr. Mohit Gupta is known for fostering a culture of collaboration, continuous improvement, and customer-centricity, ensuring that the company not only meets but exceeds industry expectations.
+                                </p>
+                                <p>
+                                    His forward-thinking approach and ability to navigate evolving market dynamics have enabled the company to expand its reach and build lasting partnerships. As a leader, he remains dedicated to advancing healthcare outcomes and contributing meaningfully to the well-being of society.
+                                </p>
+                            </div>
                         </div>
 
-                        <div className="text-center mb-16 md:mb-20 animate-fade-in-up">
+                        <div className="text-center mb-12 md:mb-20 animate-fade-in-up">
                             <div className="inline-block relative">
                                 <h3 className="text-[24px] md:text-[34px] font-bold text-slate-900 mb-1 md:mb-2 tracking-tight">
-                                    Mr. Mohit
+                                    Mr. Mohit Gupta
                                 </h3>
                                 <div className="h-1 w-8 md:w-10 bg-[#8cc63f] mx-auto rounded-full mb-3 md:mb-4"></div>
                             </div>
@@ -379,7 +392,7 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-4 border-t border-slate-100 pt-12 md:pt-16">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 md:gap-4 border-t border-slate-100  md:pt-16">
                             {[
                                 { val: "20+", label: "Years of Vision", color: "hover:text-[#1193f2]" },
                                 { val: "Global", label: "Network Reach", color: "hover:text-[#8cc63f]" },
@@ -394,6 +407,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
             <Contact />
         </>
     );
