@@ -210,7 +210,7 @@ export default function Gastroenterology() {
                             },
                             {
                                 name: 'ESOPAX HP KIT',
-                                category: 'ANTI-INFECTIVE',
+                                category: 'Anti-infective',
                                 description: 'A combination therapy designed to eradicate H. pylori, reduce acid secretion, and promote ulcer healing.',
                                 image: esopaxHp,
                                 badgeColor: 'bg-purple-50 text-purple-600'
@@ -273,7 +273,7 @@ export default function Gastroenterology() {
                             },
                             {
                                 name: 'RIFACAST TAB',
-                                category: 'ANTI-INFECTIVE',
+                                category: 'Anti-infective',
                                 description: 'A targeted antibiotic that helps control gut infections, reduces harmful bacteria, and supports health.',
                                 image: productPlaceholder,
                                 badgeColor: 'bg-purple-50 text-purple-600'

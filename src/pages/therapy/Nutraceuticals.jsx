@@ -32,7 +32,7 @@ export default function Nutraceuticals() {
 
                         <h1 className="text-[32px] sm:text-[56px] md:text-[68px] lg:text-[80px] font-bold text-white uppercase leading-[1.1] mb-6">
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-brand-300">
-                                Anti-Infective
+                                Anti-infective
                             </span>
                             <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-[#83C24D]">
@@ -41,7 +41,7 @@ export default function Nutraceuticals() {
                         </h1>
 
                         <p className="text-[14px] sm:text-[17px] md:text-[19px] text-white/80 max-w-3xl mx-auto leading-relaxed animate-fade-in-up delay-200">
-                            Our anti-infective range is designed to address bacterial, viral, and fungal infections with high-quality formulations that ensure effective treatment and improved patient outcomes.
+                            Our Anti-infective range is designed to address bacterial, viral, and fungal infections with high-quality formulations that ensure effective treatment and improved patient outcomes.
                         </p>
                     </div>
                 </div>
@@ -67,7 +67,7 @@ export default function Nutraceuticals() {
                             </p>
 
                             <p className="hidden md:block">
-                                In countries like India, delayed diagnosis and inappropriate treatment often lead to complications and prolonged recovery. This highlights the need for effective, targeted, and well-formulated anti-infective therapies.
+                                In countries like India, delayed diagnosis and inappropriate treatment often lead to complications and prolonged recovery. This highlights the need for effective, targeted, and well-formulated Anti-infective therapies.
                             </p>
 
                             <p>
@@ -86,7 +86,7 @@ export default function Nutraceuticals() {
                         {/* Text Content */}
                         <div className="w-full lg:w-1/2 text-center lg:text-left">
                             <span className="text-[12px] md:text-[16px] font-bold text-[#83C24D] tracking-[0.2em] md:tracking-widest uppercase block mb-4">
-                                PRECISION ANTI-INFECTIVE CARE
+                                PRECISION Anti-infective CARE
                             </span>
                             <h2 className="text-[36px] sm:text-[48px] md:text-[72px] font-bold leading-[1.1] mb-6 md:mb-8">
                                 Therapeutic <br className="hidden sm:block" />
@@ -98,7 +98,7 @@ export default function Nutraceuticals() {
                             </p>
 
                             <div className="mb-10 text-left inline-block lg:block">
-                                <p className="text-slate-900 font-bold mb-4">Our anti-infective solutions are designed to:</p>
+                                <p className="text-slate-900 font-bold mb-4">Our Anti-infective solutions are designed to:</p>
                                 <ul className="space-y-3">
                                     {[
                                         'Combat a broad spectrum of infections effectively',
@@ -126,7 +126,7 @@ export default function Nutraceuticals() {
                             <div className="relative group">
                                 <img
                                     src={Infectious}
-                                    alt="Caprion Anti-Infective Products Portfolio"
+                                    alt="Caprion Anti-infective Products Portfolio"
                                     className="w-full h-auto max-w-[320px] sm:max-w-[500px] object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500"
                                 />
                             </div>
@@ -141,7 +141,7 @@ export default function Nutraceuticals() {
                 <div className="site-shell px-6 mx-auto max-w-7xl">
                     <div className="container-custom mb-12 md:mb-16 text-center">
                         <h2 className="heading-primary">
-                            Advanced Anti-Infective Solutions
+                            Advanced Anti-infective Solutions
                         </h2>
                         <p className="text-slate-600 text-[15px] md:text-[18px] max-w-2xl mx-auto leading-relaxed">
                             Our portfolio combines science-backed ingredients with innovative formulations to deliver effective and reliable wellness solutions.

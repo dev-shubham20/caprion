@@ -33,7 +33,7 @@ import GUTRION from '../../assets/image/GUTRION.png';
 import PRULIZEST from '../../assets/image/PRULIZEST TAB.png';
 import productPlaceholder from '../../assets/image/productPlaceholder.png';
 
-// Product Images - Anti-Infective
+// Product Images - Anti-infective
 import MEROCAP_S from '../../assets/image/MEROCAP S.png';
 import TAZOCAP from '../../assets/image/TAZOCAP.png';
 import FAROCAP from '../../assets/image/FAROCAP.png';
@@ -80,11 +80,11 @@ export default function Portfolio() {
         { id: 'CAP-G15', name: 'HEPANIT INJ', therapy: 'Gastroenterology', description: 'Intravenous support for critical liver care and detoxification.', image: productPlaceholder },
         { id: 'CAP-G16', name: 'RIFACAST TAB', therapy: 'Gastroenterology', description: 'Targeted antibiotic for intestinal infections and gut health management.', image: productPlaceholder },
 
-        // Anti-Infective
-        { id: 'CAP-A01', name: 'MEROCAP S', therapy: 'Anti-Infective', description: 'Broad-spectrum antibiotic for serious bacterial infections.', image: MEROCAP_S },
-        { id: 'CAP-A02', name: 'TAZOCAP', therapy: 'Anti-Infective', description: 'Combination antibiotic for resistant bacterial infections.', image: TAZOCAP },
-        { id: 'CAP-A03', name: 'FAROCAP', therapy: 'Anti-Infective', description: 'Oral antibiotic for rapid relief from bacterial infections.', image: FAROCAP },
-        { id: 'CAP-A04', name: 'FAROCAP CV', therapy: 'Anti-Infective', description: 'Advanced combination antibiotic against resistant bacteria.', image: FAROCAP_CV },
+        // Anti-infective
+        { id: 'CAP-A01', name: 'MEROCAP S', therapy: 'Anti-infective', description: 'Broad-spectrum antibiotic for serious bacterial infections.', image: MEROCAP_S },
+        { id: 'CAP-A02', name: 'TAZOCAP', therapy: 'Anti-infective', description: 'Combination antibiotic for resistant bacterial infections.', image: TAZOCAP },
+        { id: 'CAP-A03', name: 'FAROCAP', therapy: 'Anti-infective', description: 'Oral antibiotic for rapid relief from bacterial infections.', image: FAROCAP },
+        { id: 'CAP-A04', name: 'FAROCAP CV', therapy: 'Anti-infective', description: 'Advanced combination antibiotic against resistant bacteria.', image: FAROCAP_CV },
 
         // Pain Management
         { id: 'CAP-P01', name: 'THIOCAP F', therapy: 'Pain Management', description: 'Relieves neuropathic pain and reduces nerve inflammation.', image: THIOCAP_F },
@@ -202,18 +202,18 @@ export default function Portfolio() {
                             </a>
                         </div>
 
-                        {/* Anti-Infective */}
+                        {/* Anti-infective */}
                         <div className="group bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-xl shadow-blue-900/5 hover:shadow-2xl hover:shadow-blue-900/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/5 rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-700"></div>
 
                             <div className="w-16 h-16 rounded-2xl bg-purple-50 flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-500">
                                 <Microscope className="w-8 h-8 text-purple-600" />
                             </div>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-4">Anti-Infective</h3>
+                            <h3 className="text-2xl font-bold text-slate-900 mb-4">Anti-infective</h3>
                             <p className="text-slate-500 text-[15px] leading-relaxed mb-8">
                                 Targeted therapies to combat bacterial, viral, and fungal infections with precision-engineered quality formulations.
                             </p>
-                            <a className="inline-flex items-center gap-2 text-brand-600 font-bold text-sm tracking-wider uppercase group/link" href="/anti-infective">
+                            <a className="inline-flex items-center gap-2 text-brand-600 font-bold text-sm tracking-wider uppercase group/link" href="/Anti-infective">
                                 Learn More
                                 <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
                             </a>
@@ -252,7 +252,7 @@ export default function Portfolio() {
 
                         {/* Functional Tabs */}
                         <div className="flex flex-wrap justify-center gap-3 mt-10">
-                            {['All', 'Neurology', 'Gastroenterology', 'Anti-Infective', 'Pain Management'].map((cat) => (
+                            {['All', 'Neurology', 'Gastroenterology', 'Anti-infective', 'Pain Management'].map((cat) => (
                                 <button
                                     key={cat}
                                     onClick={() => setActiveCategory(cat)}

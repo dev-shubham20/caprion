@@ -58,7 +58,7 @@ export default function Header() {
                                     className={`nav-dropdown z-1 after:absolute after:left-0 after:size-full after:-top-4 after:bg-transparent after:-z-10 ${activeDropdown === 'therapy' ? 'is-open' : ''}`}>
                                     <Link to="/neuropathy" className="nav-dropdown-link" onClick={closeAllMenus}>NEUROLOGY</Link>
                                     <Link to="/gastroenterology" className="nav-dropdown-link" onClick={closeAllMenus}>GASTROENTEROLOGY</Link>
-                                    <Link to="/anti-infective" className="nav-dropdown-link" onClick={closeAllMenus}>Anti-infective</Link>
+                                    <Link to="/Anti-infective" className="nav-dropdown-link" onClick={closeAllMenus}>Anti-infective</Link>
                                     <Link to="/pain-management" className="nav-dropdown-link" onClick={closeAllMenus}>Pain Management</Link>
                                 </div>
                             </div>
@@ -128,7 +128,7 @@ export default function Header() {
                                     <Link to="/gastroenterology"
                                         onClick={closeAllMenus}
                                         className="mobile-nav-link block text-[15px] font-semibold text-slate-600 hover:text-[#4fa7f0]">GASTROENTEROLOGY</Link>
-                                    <Link to="/anti-infective"
+                                    <Link to="/Anti-infective"
                                         onClick={closeAllMenus}
                                         className="mobile-nav-link block text-[15px] font-semibold text-slate-600 hover:text-[#4fa7f0]">Anti-infective</Link>
                                     <Link to="/pain-management"

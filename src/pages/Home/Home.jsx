@@ -10,7 +10,7 @@ import 'swiper/css/effect-fade';
 
 import heroVideo from '../../assets/image/Hero section.mp4';
 import neurologyVideo from '../../assets/image/Brain Neurology.mp4';
-import antiInfectiveVideo from '../../assets/image/Anti-Infective.mp4';
+import antiInfectiveVideo from '../../assets/image/Anti-infective.mp4';
 import painVideo from '../../assets/image/painManagement.mp4';
 import inspiredIcon from '../../assets/image/Inspired.png';
 import drivenIcon from '../../assets/image/Driven.png';
@@ -18,7 +18,7 @@ import guidedIcon from '../../assets/image/Guided.png';
 import focusedIcon from '../../assets/image/Focused.png';
 import gastroIcon from '../../assets/image/Neuropsychiatry.png';
 import neuroIcon from '../../assets/image/Gastroenterology.png';
-import criticalIcon from '../../assets/image/ANTI-INFECTIVEHome.png';
+import criticalIcon from '../../assets/image/Anti-infectiveHome.png';
 import painIcon from '../../assets/image/PAIN MANAGEMENTHome.png';
 import integrityIcon from '../../assets/image/image 24.png';
 import patientIcon from '../../assets/image/image 26.png';
@@ -145,7 +145,7 @@ export default function Home() {
                             <div className="flex flex-col justify-center h-full max-w-3xl px-6 md:pl-24">
                                 <div className="w-fit inline-flex items-center gap-3 px-3 py-1.5 md:px-4 md:py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-md mb-4 md:mb-6 animate-fade-in-down">
                                     <span className="w-2 h-2 rounded-full bg-[#83C24D] animate-ping"></span>
-                                    <span className="text-[9px] md:text-[11px] font-bold uppercase tracking-[0.2em] md:tracking-[0.3em] text-white/90">Powerful Anti-Infective Solutions</span>
+                                    <span className="text-[9px] md:text-[11px] font-bold uppercase tracking-[0.2em] md:tracking-[0.3em] text-white/90">Powerful Anti-infective Solutions</span>
                                 </div>
                                 <h2 className="mt-2 md:mt-4 text-[28px] sm:text-[40px] md:text-[60px] font-bold leading-[1.2] md:leading-[1.1] text-white">
                                     Reliable therapies to fight bacterial,  <br />
@@ -154,10 +154,10 @@ export default function Home() {
                                     </span>
                                 </h2>
                                 <p className="mt-4 md:mt-8 text-[14px] md:text-[18px] font-medium leading-relaxed text-white/80 md:text-white/90 max-w-xl">
-                                    Our anti-infective range is designed with advanced formulations to deliver fast action and reliable outcomes.
+                                    Our Anti-infective range is designed with advanced formulations to deliver fast action and reliable outcomes.
                                 </p>
                                 <div className="mt-6 md:mt-10">
-                                    <Link to="/anti-infective" className="btn-primary !px-8 md:!px-10">View Portfolio</Link>
+                                    <Link to="/Anti-infective" className="btn-primary !px-8 md:!px-10">View Portfolio</Link>
                                 </div>
                             </div>
                         </div>
@@ -302,7 +302,7 @@ export default function Home() {
                         {[
                             { img: neuroIcon, title: "GASTROENTEROLOGY", desc: "Focused on improving digestive health with effective solutions for acidity, GERD, and gastrointestinal disorders.", link: "/gastroenterology" },
                             { img: gastroIcon, title: "NEUROLOGY", desc: "Providing reliable treatments for neurological conditions, including neuropathic pain and CNS disorders.", link: "/neuropathy" },
-                            { img: criticalIcon, title: "ANTI-INFECTIVE", desc: "Delivering broad-spectrum solutions to combat bacterial, viral, and fungal infections with precision.", link: "/anti-infective" },
+                            { img: criticalIcon, title: "Anti-infective", desc: "Delivering broad-spectrum solutions to combat bacterial, viral, and fungal infections with precision.", link: "/Anti-infective" },
                             { img: painIcon, title: "PAIN MANAGEMENT", desc: "Designed to relieve acute and chronic pain through advanced formulations that restore mobility.", link: "/pain-management" }
                         ].map((therapy, idx) => (
                             <Link to={therapy.link} key={idx} className="soft-card block group hover:-translate-y-2 transition-all duration-300">
