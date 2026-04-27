@@ -91,71 +91,47 @@ export default function WhyChooseUs() {
                     {/* Features Grid */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8">
                         {/* Feature 1 */}
-                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 md:p-10 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up">
+                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up">
                             <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F0F7FF] rounded-2xl flex items-center justify-center mb-8 md:mb-10 group-hover:scale-110 group-hover:rotate-6 transition-transform">
                                 <img src={why01} alt="Quality" className="w-6 h-6 object-contain" />
                             </div>
                             <h3 className="text-[20px] md:text-[22px] font-bold text-slate-900 mb-4 md:mb-6 leading-tight">Uncompromising <br className="hidden md:block"/> Quality</h3>
-                            <p className="text-slate-500 leading-relaxed mb-8 md:mb-10 text-sm md:text-[15px]">
+                            <p className="text-slate-500 leading-relaxed text-sm md:text-[15px]">
                                 Our rigorous multi-tier verification process ensures that clinical data maintains the highest integrity from raw collection to final editorial publication.
                             </p>
-                            <button className="flex items-center gap-2 text-[12px] md:text-[13px] font-bold text-[#1193f2] tracking-wider uppercase group/btn transition-colors hover:text-[#8cc63f]">
-                                Explore Standards
-                                <svg className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg>
-                            </button>
                         </div>
 
                         {/* Feature 2 */}
-                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 md:p-10 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up delay-100">
+                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up delay-100">
                             <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F4F9F0] rounded-2xl flex items-center justify-center mb-8 md:mb-10 group-hover:scale-110 group-hover:-rotate-6 transition-transform">
                                 <img src={why02} alt="Patient Centric" className="w-6 h-6 object-contain" />
                             </div>
                             <h3 className="text-[20px] md:text-[22px] font-bold text-slate-900 mb-4 md:mb-6 leading-tight">Patient-Centric <br className="hidden md:block"/> Approach</h3>
-                            <p className="text-slate-500 leading-relaxed mb-8 md:mb-10 text-sm md:text-[15px]">
+                            <p className="text-slate-500 leading-relaxed text-sm md:text-[15px]">
                                 We bridge the gap between complex science and human outcomes, prioritizing accessibility and ethical transparency in every research phase.
                             </p>
-                            <button className="flex items-center gap-2 text-[12px] md:text-[13px] font-bold text-[#8cc63f] tracking-wider uppercase group/btn transition-colors hover:text-[#1193f2]">
-                                Our Mission
-                                <svg className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg>
-                            </button>
                         </div>
 
                         {/* Feature 3 */}
-                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 md:p-10 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up delay-200">
+                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up delay-200">
                             <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F0F7FF] rounded-2xl flex items-center justify-center mb-8 md:mb-10 group-hover:scale-110 group-hover:rotate-6 transition-transform">
                                 <img src={why03} alt="R&D" className="w-6 h-6 object-contain" />
                             </div>
                             <h3 className="text-[20px] md:text-[22px] font-bold text-slate-900 mb-4 md:mb-6 leading-tight">Innovative <br className="hidden md:block"/> R&D</h3>
-                            <p className="text-slate-500 leading-relaxed mb-8 md:mb-10 text-sm md:text-[15px]">
+                            <p className="text-slate-500 leading-relaxed text-sm md:text-[15px]">
                                 Leveraging AI-driven predictive modeling and molecular screening to accelerate the development of next-generation life-saving therapeutics.
                             </p>
-                            <button className="flex items-center gap-2 text-[12px] md:text-[13px] font-bold text-[#1193f2] tracking-wider uppercase group/btn transition-colors hover:text-[#8cc63f]">
-                                View Pipeline
-                                <svg className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg>
-                            </button>
                         </div>
 
                         {/* Feature 4 */}
-                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 md:p-10 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up delay-300">
+                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up delay-300">
                             <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F0F7FF] rounded-2xl flex items-center justify-center mb-8 md:mb-10 group-hover:scale-110 group-hover:-rotate-6 transition-transform">
                                 <img src={why04} alt="Distribution" className="w-6 h-6 object-contain" />
                             </div>
                             <h3 className="text-[20px] md:text-[22px] font-bold text-slate-900 mb-4 md:mb-6 leading-tight">Global <br className="hidden md:block"/> Distribution</h3>
-                            <p className="text-slate-500 leading-relaxed mb-8 md:mb-10 text-sm md:text-[15px]">
+                            <p className="text-slate-500 leading-relaxed text-sm md:text-[15px]">
                                 Seamless logistical integration across six continents ensures that critical medical insights and treatments reach providers exactly when needed.
                             </p>
-                            <button className="flex items-center gap-2 text-[12px] md:text-[13px] font-bold text-[#1193f2] tracking-wider uppercase group/btn transition-colors hover:text-[#8cc63f]">
-                                Logistics Network
-                                <svg className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg>
-                            </button>
                         </div>
                     </div>
                 </div>
