@@ -102,10 +102,10 @@ export default function Header() {
                     </div>
 
                     <div className="flex-1 overflow-y-auto overscroll-contain pt-6 pb-12 px-8">
-                        <nav className="space-y-8">
+                        <nav className="space-y-3">
                             <Link to="/"
                                 onClick={closeAllMenus}
-                                className="mobile-nav-link text-xl font-bold text-slate-900 hover:text-brand-600 transition-colors">Home</Link>
+                                className="mobile-nav-link text-xl font-semibold text-slate-500 hover:text-brand-600 transition-colors">Home</Link>
 
                             <div className="space-y-5">
                                 <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-[#8cc63f]">About</p>
@@ -136,14 +136,17 @@ export default function Header() {
                                         className="mobile-nav-link block text-[15px] font-semibold text-slate-600 hover:text-[#4fa7f0]">Pain Management</Link>
                                 </div>
                             </div>
+                            <div className="mt-5">
+                                <Link to="/portfolio"
+                                    onClick={closeAllMenus}
+                                    className="mobile-nav-link text-xl font-semibold text-slate-500 hover:text-brand-600 transition-colors">Brand Portfolio</Link>
+                            </div>
 
-                            <Link to="/portfolio"
-                                onClick={closeAllMenus}
-                                className="mobile-nav-link text-xl font-bold text-slate-900 hover:text-brand-600 transition-colors">Brand Portfolio</Link>
-
-                            <Link to="/career"
-                                onClick={closeAllMenus}
-                                className="mobile-nav-link text-xl font-bold text-slate-900 hover:text-brand-600 transition-colors">Career</Link>
+                            <div className="">
+                                <Link to="/career"
+                                    onClick={closeAllMenus}
+                                    className="mobile-nav-link text-xl font-semibold text-slate-500 hover:text-brand-600 transition-colors">Career</Link>
+                            </div>
                         </nav>
                     </div>
 

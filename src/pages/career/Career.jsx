@@ -22,7 +22,7 @@ export default function Career() {
                     <div className="absolute top-1/4 -right-1/4 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-brand-500/20 blur-[80px] md:blur-[120px] rounded-full"></div>
                     <div className="absolute bottom-1/4 -left-1/4 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-[#83C24D]/10 blur-[80px] md:blur-[120px] rounded-full"></div>
                 </div>
-                <div className="site-shell relative z-10 w-full pt-20 md:pt-0">
+                <div className="site-shell relative z-10 w-full md:pt-0">
                     <div className="max-w-3xl">
                         <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-md mb-8 animate-fade-in-down">
                             <span className="w-2 h-2 rounded-full bg-[#83C24D] animate-ping"></span>
@@ -38,12 +38,6 @@ export default function Career() {
                             At Caprion Pharma, precision isn't just a metric—it's our purpose. We are looking for
                             visionaries to join our mission of redefining precision medicine and therapeutic excellence.
                         </p>
-                        <div className="animate-fade-in-up delay-400">
-                            <button className="btn-primary px-8 md:!px-12 py-3.5 md:!py-4 shadow-xl shadow-blue-500/10 group w-full sm:w-auto">
-                                View Open Roles
-                                <ArrowRight className="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                            </button>
-                        </div>
                     </div>
                 </div>
 
@@ -138,16 +132,16 @@ export default function Career() {
             <section className="section-pad bg-white" id="jobs">
                 <div className="site-shell">
                     <div className="max-w-4xl mx-auto text-center">
-                        <div className="mb-10 md:mb-12 animate-fade-in-up">
+                        <div className="mb-10 md:mb-14 animate-fade-in-up">
                             <span className="section-kicker block mb-4">JOIN OUR TEAM</span>
-                            <h2 className="heading-primary mb-4 md:mb-6">Take the Next Step in Your Career</h2>
-                            <p className="text-slate-600 text-base md:text-lg leading-relaxed max-w-2xl mx-auto px-4">
+                            <h2 className="text-3xl sm:text-4xl md:heading-primary mb-6">Take the Next Step in Your Career</h2>
+                            <p className="text-slate-600 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
                                 We are always looking for passionate individuals to join our mission of delivering excellence in healthcare. If you believe you have the skills and drive to contribute to our growth, we would love to hear from you.
                             </p>
                         </div>
 
-                        <div className="bg-slate-50 rounded-[2rem] md:rounded-[3rem] p-8 md:p-16 border border-slate-100 shadow-xl shadow-blue-900/5 group relative overflow-hidden animate-fade-in-up mx-4">
-                            <div className="absolute top-0 right-0 w-48 md:w-64 h-48 md:h-64 bg-brand-500/5 rounded-full -translate-y-24 translate-x-24 md:-translate-y-32 md:translate-x-32 group-hover:scale-150 transition-transform duration-700"></div>
+                        <div className="bg-slate-50 rounded-[2.5rem] md:rounded-[3.5rem] p-8 sm:p-12 md:p-20 border border-slate-100 shadow-xl shadow-blue-900/5 group relative overflow-hidden animate-fade-in-up">
+                            <div className="absolute top-0 right-0 w-48 md:w-80 h-48 md:h-80 bg-brand-500/5 rounded-full -translate-y-1/2 translate-x-1/2 group-hover:scale-150 transition-transform duration-1000"></div>
                             
                             <div className="relative z-10">
                                 <div className="w-16 h-16 md:w-20 md:h-20 bg-white rounded-2xl flex items-center justify-center shadow-lg mx-auto mb-6 md:mb-8 group-hover:scale-110 transition-transform">
@@ -160,7 +154,7 @@ export default function Career() {
                                 
                                 <a 
                                     href="mailto:info@caprionpharma.com" 
-                                    className="btn-primary py-4 md:!py-5 px-8 md:!px-12 text-base md:!text-lg !rounded-full inline-flex items-center gap-3 group/btn w-full sm:w-auto justify-center"
+                                    className="btn-primary py-3 sm:py-4 px-10 sm:px-14 text-base sm:text-base inline-flex items-center gap-3 group/btn w-full sm:w-auto justify-center shadow-lg shadow-brand-500/10 hover:shadow-brand-500/25 transition-all"
                                 >
                                     <span>Send Your CV</span>
                                     <ArrowRight className="w-5 h-5 group-hover/btn:translate-x-2 transition-transform" />

@@ -114,18 +114,18 @@ export default function Portfolio() {
                     <div className="absolute bottom-1/4 -left-1/4 w-[600px] h-[600px] bg-[#83C24D]/10 blur-[120px] rounded-full"></div>
                 </div>
 
-                <div className="site-shell relative z-10 w-full pt-20 pb-32">
+                <div className="site-shell relative z-10 w-full pt-20 pb-20 md:pb-32">
                     <div className="max-w-4xl">
                         <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-md mb-8 animate-fade-in-down">
                             <span className="w-2 h-2 rounded-full bg-[#83C24D] animate-ping"></span>
                             <span className="text-[11px] font-bold uppercase tracking-[0.3em] text-white/90">Portfolio Overview</span>
                         </div>
 
-                        <p className="text-[18px] sm:text-[20px] md:text-[24px] font-medium text-brand-300 mb-4 animate-fade-in-up">
+                        <p className="text-lg sm:text-xl md:text-2xl font-medium text-brand-300 mb-4 animate-fade-in-up">
                             Delivering trusted formulations across diverse therapeutic segments.
                         </p>
 
-                        <h1 className="text-5xl md:text-8xl font-bold text-white leading-[1.1] tracking-tight mb-8 animate-fade-in-up">
+                        <h1 className="text-4xl sm:text-5xl md:text-8xl font-bold text-white leading-[1.1] tracking-tight mb-8 animate-fade-in-up">
                             Our Brand <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-[#83C24D]">
                                 Portfolio
@@ -151,89 +151,73 @@ export default function Portfolio() {
             {/* Therapeutic Focus Areas */}
             <section className="section-pad bg-white relative overflow-hidden">
                 <div className="site-shell relative z-10">
-                    <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+                    <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 md:mb-16 gap-6 md:gap-8">
                         <div className="max-w-2xl">
                             <h2 className="heading-primary">
                                 Therapeutic Focus Areas
                             </h2>
-                            <p className="text-[16px] text-slate-600 leading-relaxed font-normal max-w-2xl" style={{ animationDelay: '200ms' }}>
+                            <p className="text-base text-slate-600 leading-relaxed font-normal max-w-2xl" style={{ animationDelay: '200ms' }}>
                                 Specialized treatments tailored for complex medical conditions, developed through rigorous clinical research and ethical standards.
                             </p>
                         </div>
-                        <div className="flex gap-3 mb-4">
+                        <div className="flex gap-3 mb-4 hidden md:flex">
                             <div className="h-1.5 w-12 bg-brand-500 rounded-full"></div>
                             <div className="h-1.5 w-4 bg-brand-100 rounded-full"></div>
                             <div className="h-1.5 w-4 bg-brand-100 rounded-full"></div>
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
                         {/* Neurology */}
-                        <div className="group bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-xl shadow-blue-900/5 hover:shadow-2xl hover:shadow-blue-900/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden">
+                        <div className="group bg-white p-7 sm:p-10 rounded-[2.5rem] border border-slate-100 shadow-xl shadow-blue-900/5 hover:shadow-2xl hover:shadow-blue-900/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-500/5 rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-700"></div>
 
                             <div className="w-16 h-16 rounded-2xl bg-indigo-50 flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-500">
                                 <Brain className="w-8 h-8 text-indigo-600" />
                             </div>
                             <h3 className="text-2xl font-bold text-slate-900 mb-4">Neurology</h3>
-                            <p className="text-slate-500 text-[15px] leading-relaxed mb-8">
+                            <p className="text-slate-500 text-[15px] leading-relaxed">
                                 Innovative neurological research focusing on neurodegenerative diseases and comprehensive nerve health strategies.
                             </p>
-                            <a className="inline-flex items-center gap-2 text-brand-600 font-bold text-sm tracking-wider uppercase group/link" href="/neuropathy">
-                                Learn More
-                                <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
-                            </a>
                         </div>
 
                         {/* Gastroenterology */}
-                        <div className="group bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-xl shadow-blue-900/5 hover:shadow-2xl hover:shadow-blue-900/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden">
+                        <div className="group bg-white p-7 sm:p-10 rounded-[2.5rem] border border-slate-100 shadow-xl shadow-blue-900/5 hover:shadow-2xl hover:shadow-blue-900/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-700"></div>
 
                             <div className="w-16 h-16 rounded-2xl bg-emerald-50 flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-500">
                                 <Activity className="w-8 h-8 text-emerald-600" />
                             </div>
                             <h3 className="text-2xl font-bold text-slate-900 mb-4">Gastroenterology</h3>
-                            <p className="text-slate-500 text-[15px] leading-relaxed mb-8">
+                            <p className="text-slate-500 text-[15px] leading-relaxed">
                                 Advanced solutions for chronic digestive health conditions, focusing on acidity control and long-term gut recovery.
                             </p>
-                            <a className="inline-flex items-center gap-2 text-brand-600 font-bold text-sm tracking-wider uppercase group/link" href="/gastroenterology">
-                                Learn More
-                                <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
-                            </a>
                         </div>
 
                         {/* Anti-infective */}
-                        <div className="group bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-xl shadow-blue-900/5 hover:shadow-2xl hover:shadow-blue-900/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden">
+                        <div className="group bg-white p-7 sm:p-10 rounded-[2.5rem] border border-slate-100 shadow-xl shadow-blue-900/5 hover:shadow-2xl hover:shadow-blue-900/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/5 rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-700"></div>
 
                             <div className="w-16 h-16 rounded-2xl bg-purple-50 flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-500">
                                 <Microscope className="w-8 h-8 text-purple-600" />
                             </div>
                             <h3 className="text-2xl font-bold text-slate-900 mb-4">Anti-infective</h3>
-                            <p className="text-slate-500 text-[15px] leading-relaxed mb-8">
+                            <p className="text-slate-500 text-[15px] leading-relaxed">
                                 Targeted therapies to combat bacterial, viral, and fungal infections with precision-engineered quality formulations.
                             </p>
-                            <a className="inline-flex items-center gap-2 text-brand-600 font-bold text-sm tracking-wider uppercase group/link" href="/Anti-infective">
-                                Learn More
-                                <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
-                            </a>
                         </div>
 
                         {/* Pain Management */}
-                        <div className="group bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-xl shadow-blue-900/5 hover:shadow-2xl hover:shadow-blue-900/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden">
+                        <div className="group bg-white p-7 sm:p-10 rounded-[2.5rem] border border-slate-100 shadow-xl shadow-blue-900/5 hover:shadow-2xl hover:shadow-blue-900/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-32 h-32 bg-rose-500/5 rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-700"></div>
 
                             <div className="w-16 h-16 rounded-2xl bg-rose-50 flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-500">
                                 <HeartPulse className="w-8 h-8 text-rose-600" />
                             </div>
                             <h3 className="text-2xl font-bold text-slate-900 mb-4">Pain Management</h3>
-                            <p className="text-slate-500 text-[15px] leading-relaxed mb-8">
+                            <p className="text-slate-500 text-[15px] leading-relaxed">
                                 Effective relief for acute and chronic pain conditions, designed to reduce inflammation and improve physical mobility.
                             </p>
-                            <a className="inline-flex items-center gap-2 text-brand-600 font-bold text-sm tracking-wider uppercase group/link" href="/pain-management">
-                                Learn More
-                                <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -251,12 +235,12 @@ export default function Portfolio() {
                         <h2 className="heading-primary">Brand Gallery</h2>
 
                         {/* Functional Tabs */}
-                        <div className="flex flex-wrap justify-center gap-3 mt-10">
+                        <div className="flex flex-wrap justify-center gap-2 md:gap-3 mt-8 md:mt-10">
                             {['All', 'Neurology', 'Gastroenterology', 'Anti-infective', 'Pain Management'].map((cat) => (
                                 <button
                                     key={cat}
                                     onClick={() => setActiveCategory(cat)}
-                                    className={`px-8 py-3 rounded-full text-sm font-bold transition-all duration-300 cursor-pointer ${activeCategory === cat
+                                    className={`px-5 sm:px-8 py-2.5 sm:py-3 rounded-full text-xs sm:text-sm font-bold transition-all duration-300 cursor-pointer ${activeCategory === cat
                                         ? 'bg-brand-600 text-white shadow-lg shadow-brand-200 scale-105'
                                         : 'bg-white text-slate-500 hover:bg-slate-100 border border-slate-200'
                                         }`}
@@ -268,14 +252,14 @@ export default function Portfolio() {
                     </div>
 
                     {/* Product Grid - Compact 4-column layout */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 lg:grid-cols-4 sm:gap-6 gap-4">
                         {filteredProducts.map((product, index) => (
                             <div
                                 key={product.id}
-                                className="group bg-white rounded-[1.5rem] overflow-hidden border border-slate-100 shadow-lg shadow-blue-900/5 hover:shadow-xl transition-all duration-500 animate-fade-in-up"
+                                className="group bg-white rounded-xl sm:rounded-[1.5rem] overflow-hidden border border-slate-100 shadow-lg shadow-blue-900/5 hover:shadow-xl transition-all duration-500 animate-fade-in-up"
                                 style={{ animationDelay: `${index * 100}ms` }}
                             >
-                                <div className="relative h-72 overflow-hidden bg-slate-50">
+                                <div className="relative h-40 sm:h-72 overflow-hidden bg-slate-50">
                                     <img className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110 p-6"
                                         src={product.image}
                                         alt={product.name} />
@@ -283,14 +267,14 @@ export default function Portfolio() {
                                         {product.category}
                                     </div> */}
                                 </div>
-                                <div className="p-6">
+                                <div className="px-2 py-3 sm:p-6">
                                     <span className="text-brand-600 font-bold text-[10px] uppercase tracking-widest mb-2 block">
                                         {product.therapy}
                                     </span>
                                     <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-brand-600 transition-colors line-clamp-1">
                                         {product.name}
                                     </h3>
-                                    <p className="text-slate-500 text-xs leading-relaxed line-clamp-4">
+                                    <p className="text-slate-500 text-xs leading-relaxed max-sm:h-[5lh] line-clamp-6 sm:line-clamp-4">
                                         {product.description}
                                     </p>
                                 </div>
@@ -304,9 +288,9 @@ export default function Portfolio() {
             <section className="section-pad bg-white overflow-hidden">
                 <div className="site-shell">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                        <div className="relative group max-w-xl mx-auto lg:mx-0">
-                            <div className="relative rounded-[2.5rem] overflow-hidden shadow-xl shadow-blue-900/10">
-                                <img className="w-full h-[480px] object-cover transition-transform duration-1000 group-hover:scale-105"
+                        <div className="relative group max-w-xl mx-auto lg:mx-0 w-full">
+                            <div className="relative rounded-2xl sm:rounded-[2.5rem] overflow-hidden shadow-xl shadow-blue-900/10">
+                                <img className="w-full h-[320px] sm:h-[400px] md:h-[480px] object-cover transition-transform duration-1000 group-hover:scale-105"
                                     alt="Caprion standard of quality and precision"
                                     src={uncompromisingImg} />
                                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>

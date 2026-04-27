@@ -7,7 +7,7 @@ export default function Contact() {
         <section id="contact" className="w-full bg-white relative overflow-hidden">
             <div className="">
                 <div className="relative">
-                    <div className="bg-slate-900 p-10 md:p-16 relative overflow-hidden group shadow-2xl container-custom">
+                    <div className="bg-slate-900 px-4 py-8 md:p-16 relative overflow-hidden group shadow-2xl container-custom">
                         <div className="absolute inset-0 bg-gradient-to-br from-brand-600/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
                         <div className="site-shell">
                             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
