@@ -18,7 +18,7 @@ import guidedIcon from '../../assets/image/Guided.png';
 import focusedIcon from '../../assets/image/Focused.png';
 import gastroIcon from '../../assets/image/Neuropsychiatry.png';
 import neuroIcon from '../../assets/image/Gastroenterology.png';
-import criticalIcon from '../../assets/image/Anti-infectiveHome.png';
+import criticalIcon from '../../assets/image/ANTI-INFECTIVEHome.png';
 import painIcon from '../../assets/image/PAIN MANAGEMENTHome.png';
 import integrityIcon from '../../assets/image/image 24.png';
 import patientIcon from '../../assets/image/image 26.png';
