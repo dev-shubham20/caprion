@@ -56,9 +56,9 @@ export default function Header() {
                                 </Link>
                                 <div
                                     className={`nav-dropdown z-1 after:absolute after:left-0 after:size-full after:-top-4 after:bg-transparent after:-z-10 ${activeDropdown === 'therapy' ? 'is-open' : ''}`}>
-                                    <Link to="/neuropathy" className="nav-dropdown-link" onClick={closeAllMenus}>NEUROLOGY</Link>
-                                    <Link to="/gastroenterology" className="nav-dropdown-link" onClick={closeAllMenus}>GASTROENTEROLOGY</Link>
-                                    <Link to="/Anti-infective" className="nav-dropdown-link" onClick={closeAllMenus}>Anti-infective</Link>
+                                    <Link to="/neuropathy" className="nav-dropdown-link" onClick={closeAllMenus}>Neurology</Link>
+                                    <Link to="/gastroenterology" className="nav-dropdown-link" onClick={closeAllMenus}>Gastroenterology</Link>
+                                    <Link to="/Anti-infective" className="nav-dropdown-link" onClick={closeAllMenus}>Anti-Infective</Link>
                                     <Link to="/pain-management" className="nav-dropdown-link" onClick={closeAllMenus}>Pain Management</Link>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ export default function Header() {
                         </nav>
 
                         <div className="flex items-center gap-4">
-                            <Link to="/contact" className="btn-primary hidden shrink-0 sm:inline-flex" onClick={closeAllMenus}>Contact us</Link>
+                            <Link to="/contact" className="btn-primary hidden shrink-0 sm:inline-flex" onClick={closeAllMenus}>Contact Us</Link>
 
                             <button id="mobile-menu-toggle" className="flex lg:hidden flex-col gap-1.5 p-2 focus:outline-none"
                                 aria-label="Toggle Menu" onClick={() => setIsMobileMenuOpen(true)}>

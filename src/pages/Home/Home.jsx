@@ -269,12 +269,12 @@ export default function Home() {
                         ].map((item, idx) => (
                             <article key={idx} className="group relative [perspective:1200px] mx-auto w-full max-w-md h-[180px] md:h-[208px]">
                                 <div className="relative w-full h-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] cursor-pointer">
-                                    <div className="absolute inset-0 flex flex-col items-center justify-center p-6 md:p-8 text-center bg-[#dff3ff] rounded-[20px] rounded-tr-[60px] md:rounded-tr-[100px] [backface-visibility:hidden] border border-blue-50">
+                                    <div className="absolute inset-0 flex flex-col items-center justify-center p-6 md:p-8 text-center bg-[#dff3ff] signature-card [backface-visibility:hidden] border border-blue-50">
                                         <img src={item.icon} alt={item.title} className="size-12 md:size-16 object-contain" />
                                         <h3 className="mt-4 text-[16px] md:text-[22px] font-bold text-[#1193f2]">{item.title}</h3>
                                     </div>
-                                    <div className="absolute inset-0 flex flex-col items-center justify-center p-6 md:p-8 text-center bg-[#dff3ff] rounded-[20px] rounded-tr-[60px] md:rounded-tr-[100px] [backface-visibility:hidden] [transform:rotateY(180deg)] border border-blue-100 shadow-inner">
-                                        <h3 className="text-xs md:text-[14px] font-bold text-[#1193f2] uppercase tracking-widest">{item.title}</h3>
+                                    <div className="absolute inset-0 flex flex-col items-center justify-center p-6 md:p-8 text-center bg-[#dff3ff] signature-card [backface-visibility:hidden] [transform:rotateY(180deg)] border border-blue-100 shadow-inner">
+                                        <h3 className="text-xs md:text-[16px] font-bold text-[#1193f2] uppercase tracking-widest">{item.title}</h3>
                                         <p className="mt-3 text-[12px] md:text-[14px] leading-relaxed text-slate-700 font-medium">
                                             {item.desc}
                                         </p>

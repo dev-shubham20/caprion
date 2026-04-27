@@ -169,14 +169,14 @@ export default function GeneralWellness() {
                                 name: 'ETOKLAS TH',
                                 category: 'PAIN CARE',
                                 description: 'A combination therapy that provides enhanced pain relief by reducing inflammation and relieving muscle spasm.',
-                                image: etoklasTh,
+                                image: cartipax,
                                 badgeColor: 'bg-[#E9F7EF] text-[#27AE60]'
                             },
                             {
                                 name: 'CARTIPAX',
                                 category: 'JOINT CARE',
                                 description: 'A joint-support formulation that helps improve cartilage health, reduce stiffness, and enhance mobility.',
-                                image: cartipax,
+                                image: etoklasTh,
                                 badgeColor: 'bg-[#EBF5FB] text-[#2980B9]'
                             },
                             {
