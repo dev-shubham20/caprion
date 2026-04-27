@@ -1,6 +1,7 @@
 import React from 'react';
 
 import contactHome from '../../assets/image/contactHome.png';
+import map from '../../assets/image/map.jfif';
 import { Mail, Phone, Send, ArrowRight, MapPin } from 'lucide-react';
 import ScrollIndicator from '../../components/common/ScrollIndicator';
 
@@ -177,15 +178,15 @@ export default function Contact() {
                                 className="bg-white signature-card overflow-hidden h-[350px] md:h-[450px] shadow-2xl relative border border-slate-100">
                                 <img className="w-full h-full object-cover grayscale opacity-40 mix-blend-multiply"
                                     alt="Global Map"
-                                    src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&q=80" />
+                                    src={map} />
                                 <div
                                     className="absolute inset-0 bg-gradient-to-t from-white/80 via-transparent to-transparent">
                                 </div>
                                 {/* India Pin */}
-                                <div className="absolute top-[53%] left-[80%] sm:left-[67%]">
+                                <div className="absolute top-[53%] left-[80%] sm:left-[70%]">
                                     <div className="relative flex items-center justify-center">
-                                        <div className="absolute w-8 h-8 bg-emerald-400 rounded-full animate-ping opacity-40"></div>
-                                        <div className="w-3 h-3 bg-emerald-600 rounded-full shadow-lg border-2 border-white"></div>
+                                        <div className="absolute w-8 h-8 bg-blue-400 rounded-full animate-ping opacity-40"></div>
+                                        <div className="w-3 h-3 bg-blue-400 rounded-full shadow-lg border-2 border-white"></div>
                                         <div
                                             className="absolute bottom-full mb-3 bg-white px-3 py-1.5 rounded-lg text-[11px] font-bold shadow-xl border border-slate-100 whitespace-nowrap text-slate-900 transform -translate-y-1 transition-transform group-hover:translate-y-0">
                                             Jaipur Office</div>

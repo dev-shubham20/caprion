@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import scientistHero from '../../assets/image/scientist-hero.png';
 import why01 from '../../assets/image/why01.png';
 import why02 from '../../assets/image/why02.png';
@@ -150,9 +151,9 @@ export default function WhyChooseUs() {
                                 Ready to integrate clinical precision into your research?
                             </h2>
                             <div className="flex flex-wrap justify-center md:justify-start gap-4">
-                                <button className="btn btn-primary py-3 md:py-3.5 px-8 w-full sm:w-auto">
+                                <Link to="/contact" className="btn btn-primary py-3 md:py-3.5 px-8 w-full sm:w-auto text-center">
                                     Partner With Us
-                                </button>
+                                </Link>
                             </div>
                         </div>
 
