@@ -89,8 +89,8 @@ export default function Portfolio() {
         // Pain Management
         { id: 'CAP-P01', name: 'THIOCAP F', therapy: 'Pain Management', description: 'Relieves neuropathic pain and reduces nerve inflammation.', image: THIOCAP_F },
         { id: 'CAP-P02', name: 'ETOKLAS', therapy: 'Pain Management', description: 'Potent anti-inflammatory for musculoskeletal pain and swelling.', image: ETOKLAS },
-        { id: 'CAP-P03', name: 'ETOKLAS TH', therapy: 'Pain Management', description: 'Combination therapy for muscle spasms and intense pain relief.', image: ETOKLAS_TH },
-        { id: 'CAP-P04', name: 'CARTIPAX', therapy: 'Pain Management', description: 'Joint-support formulation to improve cartilage health and mobility.', image: CARTIPAX },
+        { id: 'CAP-P03', name: 'ETOKLAS TH', therapy: 'Pain Management', description: 'Combination therapy for muscle spasms and intense pain relief.', image: CARTIPAX },
+        { id: 'CAP-P04', name: 'CARTIPAX', therapy: 'Pain Management', description: 'Joint-support formulation to improve cartilage health and mobility.', image: ETOKLAS_TH },
         { id: 'CAP-P05', name: 'GABAPIX GEL', therapy: 'Pain Management', description: 'Topical relief for localized nerve pain and discomfort.', image: GABAPIX_GEL }
     ];
 
