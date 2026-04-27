@@ -144,9 +144,6 @@ export default function Career() {
                             <div className="absolute top-0 right-0 w-48 md:w-80 h-48 md:h-80 bg-brand-500/5 rounded-full -translate-y-1/2 translate-x-1/2 group-hover:scale-150 transition-transform duration-1000"></div>
                             
                             <div className="relative z-10">
-                                <div className="w-16 h-16 md:w-20 md:h-20 bg-white rounded-2xl flex items-center justify-center shadow-lg mx-auto mb-6 md:mb-8 group-hover:scale-110 transition-transform">
-                                    <Mail className="w-8 h-8 md:w-10 md:h-10 text-brand-600" />
-                                </div>
                                 <h3 className="text-xl md:text-3xl font-bold text-slate-900 mb-4">Submit Your Application</h3>
                                 <p className="text-slate-500 text-sm md:text-base mb-8 md:mb-10 max-w-lg mx-auto">
                                     Send your updated CV and a cover letter to our recruitment team. We will review your profile and get back to you if there is a suitable opportunity.
