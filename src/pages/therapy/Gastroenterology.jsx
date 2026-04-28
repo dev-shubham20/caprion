@@ -169,14 +169,14 @@ export default function Gastroenterology() {
                             {
                                 name: 'ALCOBEST TAB',
                                 category: 'NUTRITIONAL',
-                                description: 'A balanced blend of essential B-vitamins that supports nerve health, boosts energy, and helps manage nutritional deficiencies.',
+                                description: 'In Alcoholic Liver Disease,a balanced blend of essential B-vitamins supports nerve health, boosts energy, and helps manage nutritional deficiencies.',
                                 image: alcobestTab,
                                 badgeColor: 'bg-blue-50 text-blue-600'
                             },
                             {
                                 name: 'ALCOBEST IV',
                                 category: 'CRITICAL CARE',
-                                description: 'A fast-acting injectable blend of B-complex vitamins, Vitamin C, and dextrose that supports nerve health and energy.',
+                                description: 'In Alcoholic Liver Disease, a fast-acting injectable blend of B-complex vitamins, Vitamin C, and dextrose supports nerve health and boosts energy.',
                                 image: alcobestIv,
                                 badgeColor: 'bg-red-50 text-red-600'
                             },
@@ -225,14 +225,14 @@ export default function Gastroenterology() {
                             {
                                 name: 'GLUTAZEST',
                                 category: 'ANTIOXIDANT',
-                                description: 'A powerful antioxidant formulation that helps reduce oxidative stress and supports cellular health and immunity.',
+                                description: 'In Alcoholic Liver Disease & Non-Alcoholic Fatty Liver Disease, decreases ALT and TG levels to improve liver function, protects the liver against hepato-toxic drugs, and improves response to antiviral and hepatitis therapies.',
                                 image: glutazest,
                                 badgeColor: 'bg-yellow-50 text-yellow-600'
                             },
                             {
-                                name: 'UROSPAX',
-                                category: 'UROLOGY',
-                                description: 'A targeted formulation that supports urinary tract health, helps relieve discomfort, and aids in infections.',
+                                name: 'URSOPAX',
+                                category: 'HEPATOLOGY',
+                                description: 'Prevents and reverses alcohol-induced damage, normalises liver function tests, and prevents TNF receptor activation and apoptosis.',
                                 image: urospax,
                                 badgeColor: 'bg-blue-50 text-blue-600'
                             },

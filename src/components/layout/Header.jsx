@@ -49,7 +49,7 @@ export default function Header() {
                                 onMouseEnter={() => setActiveDropdown('therapy')}
                                 onMouseLeave={() => setActiveDropdown(null)}>
                                 <Link to="/#focus" className="nav-trigger" onClick={closeAllMenus}>
-                                    Therapy focus
+                                    Therapy Focus
                                     <svg viewBox="0 0 20 20" className={`nav-chevron fill-current ${activeDropdown === 'therapy' ? 'rotate-180' : ''}`} aria-hidden="true">
                                         <path d="M5.2 7.5 10 12.3l4.8-4.8 1.2 1.2-6 6-6-6 1.2-1.2Z" />
                                     </svg>

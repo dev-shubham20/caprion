@@ -19,7 +19,7 @@ export default function AboutSec() {
                             </h2>
                             <div className="space-y-6 text-[15px] leading-relaxed text-slate-800">
                                 <p>
-                                    Caprion Pharma Pvt. Ltd. delivers high-quality pharmaceutical solutions across gastroenterology, neurology, Anti-infectives, and pain management.
+                                    Caprion Pharma Pvt. Ltd. delivers high-quality pharmaceutical solutions across Gastroenterology, Neurology, Anti-infectives, and Pain Management.
                                 </p>
                                 <p>
                                    Focused on innovation, quality, and patient care, we strive to provide reliable medicines that enhance health and well-being.

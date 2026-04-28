@@ -177,15 +177,15 @@ export default function Neuropathy() {
                             },
                             {
                                 name: 'NAXRION D',
-                                category: 'COMBINATION THERAPY',
-                                description: 'A combination therapy that supports nerve health, helps reduce pain and inflammation, and improves mobility and comfort.',
+                                category: 'NON-STEROIDAL ANTI-INFLAMMATORY DRUG (NSAID)',
+                                description: 'Non-steroidal anti-inflammatory drug (NSAID) that relieves pain in Migraine, muscle aches, and dental pain, and offers excellent therapy for rheumatoid conditions.',
                                 image: NAXRION_D,
                                 badgeColor: 'bg-[#FDEDEC] text-[#C0392B]'
                             },
                             {
                                 name: 'FLUPEXA',
-                                category: 'ALLERGY MANAGEMENT',
-                                description: 'A targeted formulation that helps manage allergic symptoms, providing relief from sneezing, runny nose, and irritation.',
+                                category: 'ANTIPSYCHOTIC AND ANXIOLYTIC',
+                                description: 'Antipsychotic and anxiolytic drug, effective for somatoform disorders, irritable bowel syndrome (IBS), and psychosomatic disorders. It is also effective in the management of both primary and secondary symptoms of psychotic disorders.',
                                 image: FLUPEXA,
                                 badgeColor: 'bg-[#F4F4F4] text-[#7F8C8D]'
                             },

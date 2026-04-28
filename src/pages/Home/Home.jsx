@@ -263,8 +263,8 @@ export default function Home() {
                     <div className="mx-auto mt-10 md:mt-14 grid max-w-5xl gap-6 md:gap-8 px-4 grid-cols-1 md:grid-cols-2">
                         {[
                             { icon: inspiredIcon, title: "Inspired By Care", desc: "We put patient needs at the center of everything we do. Our commitment begins with compassion and ends with better health outcomes." },
-                            { icon: drivenIcon, title: "Driven By Science", desc: "Our solutions are backed by research, innovation, and clinical expertise. We rely on evidence to deliver safe and effective healthcare." },
-                            { icon: guidedIcon, title: "Guided By Integrity", desc: "We uphold the highest standards of ethics, transparency, and trust. Every decision is made with responsibility and accountability." },
+                            { icon: drivenIcon, title: "Driven By Integrity ", desc: "We uphold the highest standards of ethics, transparency, and trust. Every decision is made with responsibility and accountability." },
+                            { icon: guidedIcon, title: "Guided By Science ", desc: "Our solutions are backed by research, innovation, and clinical expertise. We rely on evidence to deliver safe and effective healthcare." },
                             { icon: focusedIcon, title: "Focused On Well-Being", desc: "We strive to improve quality of life through accessible and reliable care. Our focus remains on delivering lasting health and wellness." }
                         ].map((item, idx) => (
                             <article key={idx} className="group relative [perspective:1200px] mx-auto w-full max-w-md h-[180px] md:h-[208px]">
@@ -380,7 +380,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="text-center mb-12 md:mb-20 animate-fade-in-up">
+                        <div className="text-center mb-12 animate-fade-in-up">
                             <div className="inline-block relative">
                                 <h3 className="text-[24px] md:text-[34px] font-bold text-slate-900 mb-1 md:mb-2 tracking-tight">
                                     Mr. Mohit Gupta
@@ -388,13 +388,13 @@ export default function Home() {
                                 <div className="h-1 w-8 md:w-10 bg-[#8cc63f] mx-auto rounded-full mb-3 md:mb-4"></div>
                             </div>
                             <p className="text-slate-400 font-bold tracking-[0.15em] md:tracking-[0.2em] uppercase text-[9px] md:text-[11px]">
-                                Managing Director & Founder
+                                CEO & Founder
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 md:gap-4 border-t border-slate-100  md:pt-16">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 md:gap-4 border-t border-slate-100 md:pt-10">
                             {[
-                                { val: "20+", label: "Years of Vision", color: "hover:text-[#1193f2]" },
+                                { val: "25+", label: "Years of Experience", color: "hover:text-[#1193f2]" },
                                 { val: "Global", label: "Network Reach", color: "hover:text-[#8cc63f]" },
                                 { val: "100%", label: "Quality Driven", color: "hover:text-[#1193f2]" }
                             ].map((stat, i) => (
