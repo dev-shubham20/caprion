@@ -72,23 +72,13 @@ export default function Contact() {
                                         </div>
                                     </div>
                                     <div className="space-y-2">
-                                        <label className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] px-1">Subject</label>
-                                        <select
-                                            className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 focus:ring-4 focus:ring-brand-500/10 focus:border-brand-300 outline-none transition-all text-sm font-medium appearance-none cursor-pointer">
-                                            <option>General Inquiry</option>
-                                            <option>Partnership Opportunities</option>
-                                            <option>Clinical Trials</option>
-                                            <option>Investment Relations</option>
-                                        </select>
-                                    </div>
-                                    <div className="space-y-2">
                                         <label className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] px-1">Message</label>
                                         <textarea
-                                            className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 focus:ring-4 focus:ring-brand-500/10 focus:border-brand-300 outline-none transition-all text-sm font-medium min-h-[160px]"
+                                            className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 focus:ring-4 focus:ring-brand-500/10 focus:border-brand-300 outline-none transition-all text-sm font-medium min-h-[300px]"
                                             placeholder="How can we assist you today?"></textarea>
                                     </div>
                                     <button
-                                        className="btn-primary py-3 !sm:py-5 px-12 rounded-lg !sm:rounded-2xl group flex items-center justify-center gap-3 w-full md:w-auto"
+                                        className="btn-primary py-3 !sm:py-5 px-12 group flex items-center justify-center gap-3 w-full md:w-auto"
                                         type="submit">
                                         <span>Send Message</span>
                                         <Send className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
