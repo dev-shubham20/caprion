@@ -21,19 +21,19 @@ export default function Contact() {
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent"></div>
                 </div>
 
-                <div className="site-shell relative z-10">
-                    <div className="max-w-4xl">
+                <div className="site-shell relative z-10 w-full md:pt-0">
+                    <div className="max-w-3xl">
                         <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-md mb-8 animate-fade-in-down">
                             <span className="w-2 h-2 rounded-full bg-[#83C24D] animate-ping"></span>
                             <span className="text-[11px] font-bold uppercase tracking-[0.3em] text-white/90">Contact Us</span>
                         </div>
-                        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-8 leading-[1.1] animate-fade-in-up">
+                        <h1 className="text-[32px] sm:text-[45px] md:text-[65px] font-bold text-white leading-[1.2] md:leading-[1.1] mb-6 md:mb-8 animate-fade-in-up">
                             Partnering for a <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-[#83C24D]">
                                 Healthier Tomorrow
                             </span>
                         </h1>
-                        <p className="text-xl text-slate-300 leading-relaxed max-w-2xl animate-fade-in-up delay-150">
+                        <p className="text-[16px] md:text-[21px] text-slate-300 leading-relaxed font-normal max-w-2xl mb-10 md:mb-12 animate-fade-in-up delay-200">
                             Whether you're inquiring about clinical partnerships, regulatory affairs, or global distribution, our experts are ready to assist you.
                         </p>
                     </div>

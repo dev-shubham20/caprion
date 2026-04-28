@@ -30,7 +30,7 @@ export default function Header() {
                             <div className="nav-item group"
                                 onMouseEnter={() => setActiveDropdown('about')}
                                 onMouseLeave={() => setActiveDropdown(null)}>
-                                <Link to="/#about" className="nav-trigger" onClick={closeAllMenus}>
+                                <Link to="/about" className="nav-trigger" onClick={closeAllMenus}>
                                     About
                                     <svg viewBox="0 0 20 20" className={`nav-chevron fill-current ${activeDropdown === 'about' ? 'rotate-180' : ''}`} aria-hidden="true">
                                         <path d="M5.2 7.5 10 12.3l4.8-4.8 1.2 1.2-6 6-6-6 1.2-1.2Z" />

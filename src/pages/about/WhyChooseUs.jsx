@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import scientistHero from '../../assets/image/scientist-hero.png';
-import why01 from '../../assets/image/why01.png';
-import why02 from '../../assets/image/why02.png';
-import why03 from '../../assets/image/why03.png';
-import why04 from '../../assets/image/why04.png';
 import Contact from '../../components/common/Contact';
-
+import missionVision from '../../assets/image/missionVision.jpg';
+import beyond01 from '../../assets/image/beyond01.jpg';
+import beyond02 from '../../assets/image/beyond02.png';
+import beyond04 from '../../assets/image/beyond04.jpg';
+import beyond05 from '../../assets/image/beyond05.png';
 
 export default function WhyChooseUs() {
     return (
@@ -14,7 +14,7 @@ export default function WhyChooseUs() {
             <section className="relative min-h-[500px] md:min-h-[650px] flex items-center overflow-hidden bg-[#F4F9FF] pt-10 md:pt-0">
                 <div className="site-shell">
                     <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 xl:gap-24">
-                        
+
                         <div className="w-full lg:w-[48%] z-10 text-center lg:text-left">
                             <div className="inline-flex items-center gap-3 px-3 py-1.5 md:px-4 md:py-2 rounded-full bg-blue-100/50 border border-blue-200/50 mb-6 md:mb-8 animate-fade-in-down">
                                 <span className="w-2 h-2 rounded-full bg-[#83C24D] animate-ping"></span>
@@ -27,7 +27,7 @@ export default function WhyChooseUs() {
                             <p className="text-[#1193f2] text-[18px] md:text-[22px] font-bold mb-6 md:mb-8 animate-fade-in-up delay-100">
                                 Driven by purpose. Focused on better healthcare.
                             </p>
-                            
+
                             <p className="text-slate-600 text-[16px] md:text-[20px] leading-relaxed max-w-xl mx-auto lg:mx-0 mb-10 md:mb-12 animate-fade-in-up delay-200">
                                 Our commitment is to deliver reliable pharmaceutical solutions while shaping a future built on quality, trust, and innovation.
                             </p>
@@ -44,9 +44,9 @@ export default function WhyChooseUs() {
 
                         <div className="w-full lg:w-[52%] relative animate-fade-in-up delay-300 mt-6 lg:mt-0">
                             <div className="relative rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl shadow-blue-900/10 border-8 md:border-[12px] border-white group">
-                                <img 
-                                    src={scientistHero} 
-                                    alt="Clinical Excellence" 
+                                <img
+                                    src={scientistHero}
+                                    alt="Clinical Excellence"
                                     className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover group-hover:scale-110 transition-transform duration-1000"
                                 />
                                 <div className="absolute inset-0 bg-blue-500/5 mix-blend-multiply"></div>
@@ -68,83 +68,131 @@ export default function WhyChooseUs() {
                 </div>
             </section>
 
-
-            {/* Why Choose Us Feature Grid */}
-            <section className="section-pad overflow-hidden bg-[#F0FBFF]">
+            {/* Beyond the Lab Section */}
+            <section className="bg-white section-pad">
                 <div className="site-shell">
-                    {/* Section Header */}
-                    <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12 lg:mb-24 text-center lg:text-left">
-                        <div className="max-w-xl mx-auto lg:mx-0">
-                            <span className="section-kicker block mb-4">INSTITUTIONAL VALUE</span>
-                            <div className="relative inline-block">
-                                <h2 className="section-title text-[32px] sm:text-[40px] md:text-[48px] lg:text-[56px] !mt-0 leading-tight">
-                                    Why <span className="relative">Choose<div className="absolute -bottom-1 md:-bottom-2 left-0 w-full h-[4px] md:h-[6px] bg-[#8cc63f] rounded-full"></div></span> Us
-                                </h2>
-                            </div>
-                        </div>
-                        <div className="lg:max-w-md lg:text-right">
-                            <p className="text-[16px] md:text-[18px] text-slate-500 italic font-medium leading-relaxed">
-                                "Precision is not just a metric; it is our mandate to the global patient community we serve every day."
-                            </p>
-                        </div>
+                    <div className="text-center mb-16 animate-fade-in-up">
+                        <h2 className="heading-primary !mb-6">Our Purpose & Direction</h2>
+                        <p className="text-[17px] md:text-[19px] text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                            Our Purpose is to drive meaningful innovation while building a culture rooted in collaboration, integrity, and impact. We envision a future where our work not only advances science but also creates lasting value for people and communities. By aligning our goals with a strong sense of purpose, we strive to deliver excellence while fostering growth, inclusivity, and positive change.
+                        </p>
                     </div>
 
-                    {/* Features Grid */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8">
-                        {/* Feature 1 */}
-                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up">
-                            <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F0F7FF] rounded-2xl flex items-center justify-center mb-8 md:mb-10 group-hover:scale-110 group-hover:rotate-6 transition-transform">
-                                <img src={why01} alt="Quality" className="w-6 h-6 object-contain" />
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {/* Team Connection */}
+                        <div className="md:col-span-2 h-[400px] md:h-[500px] relative overflow-hidden rounded-br-[4px] rounded-tl-[4px] rounded-bl-[2rem] rounded-tr-[2rem] group shadow-xl animate-fade-in-up">
+                            <img alt="Team connection"
+                                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"
+                                src={beyond01} />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent p-10 flex flex-col justify-end">
+                                <h4 className="text-white text-[24px] font-bold mb-2">Team Connection</h4>
+                                <p className="text-white/80 text-[15px] max-w-md">We foster a collaborative environment where strong relationships empower innovation, trust, and collective success.</p>
                             </div>
-                            <h3 className="text-[20px] md:text-[22px] font-bold text-slate-900 mb-4 md:mb-6 leading-tight">Uncompromising <br className="hidden md:block"/> Quality</h3>
-                            <p className="text-slate-500 leading-relaxed text-sm md:text-[15px]">
-                                Our rigorous multi-tier verification process ensures that clinical data maintains the highest integrity from raw collection to final editorial publication.
-                            </p>
                         </div>
 
-                        {/* Feature 2 */}
-                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up delay-100">
-                            <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F4F9F0] rounded-2xl flex items-center justify-center mb-8 md:mb-10 group-hover:scale-110 group-hover:-rotate-6 transition-transform">
-                                <img src={why02} alt="Patient Centric" className="w-6 h-6 object-contain" />
+                        {/* Modern Spaces */}
+                        <div className="h-[400px] md:h-[500px] relative overflow-hidden rounded-br-[4px] rounded-tl-[4px] rounded-bl-[2rem] rounded-tr-[2rem] group shadow-xl animate-fade-in-up delay-150">
+                            <img alt="Modern spaces"
+                                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"
+                                src={beyond02} />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent p-10 flex flex-col justify-end">
+                                <h4 className="text-white text-[24px] font-bold mb-2">Modern Spaces</h4>
+                                <p className="text-white/80 text-[15px]">Our thoughtfully designed workspaces inspire creativity, focus, and seamless collaboration for better outcomes.</p>
                             </div>
-                            <h3 className="text-[20px] md:text-[22px] font-bold text-slate-900 mb-4 md:mb-6 leading-tight">Patient-Centric <br className="hidden md:block"/> Approach</h3>
-                            <p className="text-slate-500 leading-relaxed text-sm md:text-[15px]">
-                                We bridge the gap between complex science and human outcomes, prioritizing accessibility and ethical transparency in every research phase.
-                            </p>
                         </div>
 
-                        {/* Feature 3 */}
-                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up delay-200">
-                            <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F0F7FF] rounded-2xl flex items-center justify-center mb-8 md:mb-10 group-hover:scale-110 group-hover:rotate-6 transition-transform">
-                                <img src={why03} alt="R&D" className="w-6 h-6 object-contain" />
+                        {/* Giving Back */}
+                        <div className="h-[350px] md:h-[400px] relative overflow-hidden rounded-br-[4px] rounded-tl-[4px] rounded-bl-[2rem] rounded-tr-[2rem] group shadow-xl animate-fade-in-up delay-300">
+                            <img alt="Giving back"
+                                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"
+                                src={beyond04} />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent p-8 flex flex-col justify-end">
+                                <h4 className="text-white text-[22px] font-bold mb-2">Giving Back</h4>
+                                <p className="text-white/80 text-[14px]">We are committed to making a positive impact by supporting communities and contributing to meaningful social initiatives.</p>
                             </div>
-                            <h3 className="text-[20px] md:text-[22px] font-bold text-slate-900 mb-4 md:mb-6 leading-tight">Innovative <br className="hidden md:block"/> R&D</h3>
-                            <p className="text-slate-500 leading-relaxed text-sm md:text-[15px]">
-                                Leveraging AI-driven predictive modeling and molecular screening to accelerate the development of next-generation life-saving therapeutics.
-                            </p>
                         </div>
 
-                        {/* Feature 4 */}
-                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up delay-300">
-                            <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F0F7FF] rounded-2xl flex items-center justify-center mb-8 md:mb-10 group-hover:scale-110 group-hover:-rotate-6 transition-transform">
-                                <img src={why04} alt="Distribution" className="w-6 h-6 object-contain" />
+                        {/* Inclusive Culture */}
+                        <div className="md:col-span-2 h-[350px] md:h-[400px] relative overflow-hidden rounded-br-[4px] rounded-tl-[4px] rounded-bl-[2rem] rounded-tr-[2rem] group shadow-xl animate-fade-in-up delay-450">
+                            <img alt="Inclusive culture"
+                                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"
+                                src={beyond05} />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent p-10 flex flex-col justify-end">
+                                <h4 className="text-white text-[24px] font-bold mb-2">Inclusive Culture</h4>
+                                <p className="text-white/80 text-[15px] max-w-md">We celebrate diversity and create an inclusive environment where every voice is valued and innovation thrives.</p>
                             </div>
-                            <h3 className="text-[20px] md:text-[22px] font-bold text-slate-900 mb-4 md:mb-6 leading-tight">Global <br className="hidden md:block"/> Distribution</h3>
-                            <p className="text-slate-500 leading-relaxed text-sm md:text-[15px]">
-                                Seamless logistical integration across six continents ensures that critical medical insights and treatments reach providers exactly when needed.
-                            </p>
                         </div>
                     </div>
                 </div>
             </section>
 
+            {/* Mission & Vision Section */}
+            <section className="bg-[#f0f9ff] section-pad overflow-hidden">
+                <div className="site-shell">
+                    <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
+                        <div className="lg:w-1/2 relative animate-fade-in-up delay-300 w-full mt-12 lg:mt-0">
+                            <div className="aspect-[4/3] sm:aspect-square lg:aspect-square bg-gradient-to-br from-slate-100 via-slate-200 to-slate-300 rounded-[30px] md:rounded-[40px] shadow-inner relative overflow-hidden group">
+                                <div className="absolute inset-0 bg-blue-500/5 mix-blend-overlay"></div>
+                                <img
+                                    src={missionVision}
+                                    alt="Caprion Mission and Vision"
+                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"
+                                />
+                            </div>
 
+                            <div className="absolute -bottom-8 md:-bottom-10 -right-4 md:-right-10 bg-white p-6 md:p-10 rounded-[20px] md:rounded-[30px] shadow-2xl shadow-blue-900/10 border border-slate-50 transform hover:-translate-y-2 transition-transform duration-500 z-10 max-w-[180px] md:max-w-none">
+                                <div className="text-center">
+                                    <div className="text-[32px] md:text-[50px] font-bold text-[#8cc63f] leading-none mb-1 md:mb-2">2030</div>
+                                    <div className="text-[9px] md:text-[13px] font-bold tracking-[0.15em] md:tracking-[0.25em] text-slate-400 uppercase whitespace-normal md:whitespace-nowrap">
+                                        GLOBAL <br className="hidden md:block" /> LEADERSHIP TARGET
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="lg:w-1/2 space-y-12 md:space-y-16 animate-fade-in-up">
+                            <div className="space-y-6">
+                                <div className="flex items-center gap-4">
+                                    <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center text-[#83C24D]">
+                                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                        </svg>
+                                    </div>
+                                    <h2 className="text-[26px] md:text-[36px] font-bold text-slate-900">Our Mission</h2>
+                                </div>
+                                <p className="text-slate-600 text-[16px] md:text-[18px] leading-relaxed max-w-xl">
+                                    To deliver high-quality, safe, and effective medicines that improve patient outcomes and build long-term trust.
+                                </p>
+                            </div>
+
+                            <div className="space-y-6">
+                                <div className="flex items-center gap-4">
+                                    <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center text-[#83C24D]">
+                                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                    </div>
+                                    <h2 className="text-[26px] md:text-[36px] font-bold text-slate-900">Our Vision</h2>
+                                </div>
+                                <p className="text-slate-600 text-[16px] md:text-[18px] leading-relaxed max-w-xl">
+                                    To become a trusted pharmaceutical company known for quality, innovation, and consistent healthcare solutions.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </section>
 
             {/* CTA Section */}
             <section className="bg-white section-pad">
                 <div className="site-shell">
                     <div className="bg-[#1193f2] rounded-[1.5rem] md:rounded-[2.5rem] p-8 md:p-16 lg:px-20 lg:py-16 relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10 animate-fade-in-up">
-                        
+
                         {/* Text & Primary Actions */}
                         <div className="max-w-2xl relative z-10 text-center md:text-left">
                             <h2 className="text-white text-[26px] sm:text-[32px] md:text-[44px] font-bold leading-tight mb-8 md:mb-10">

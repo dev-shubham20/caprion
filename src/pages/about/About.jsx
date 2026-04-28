@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import aboutUsHero from '../../assets/image/aboutUs.png';
-import missionVision from '../../assets/image/missionVision.jpg';
 import Contact from '../../components/common/Contact';
-
+import why01 from '../../assets/image/why01.png';
+import why02 from '../../assets/image/why02.png';
+import why03 from '../../assets/image/why03.png';
+import why04 from '../../assets/image/why04.png';
 import AboutSec from '../../components/common/AboutSec';
 import ScrollIndicator from '../../components/common/ScrollIndicator';
 
@@ -100,49 +102,49 @@ export default function About() {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                         {[
-                            { 
+                            {
                                 icon: (
                                     <svg className="w-7 h-7 text-[#009AF2]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                                     </svg>
-                                ), 
-                                title: "Quality First", 
+                                ),
+                                title: "Quality First",
                                 desc: "Ensuring safety and consistency in every product we deliver to our patients.",
                                 bg: "bg-[#EBF5FB]",
-                                delay: "" 
+                                delay: ""
                             },
-                            { 
+                            {
                                 icon: (
                                     <svg className="w-7 h-7 text-[#83C24D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A10.003 10.003 0 003 20c0 .553.447 1 1 1h16c.553 0 1-.447 1-1 0-5.523-4.477-10-10-10z" />
                                     </svg>
-                                ), 
-                                title: "Integrity", 
+                                ),
+                                title: "Integrity",
                                 desc: "Building trust through ethical practices and transparent communication at all levels.",
                                 bg: "bg-[#F4F9F0]",
-                                delay: "delay-150" 
+                                delay: "delay-150"
                             },
-                            { 
+                            {
                                 icon: (
                                     <svg className="w-7 h-7 text-[#009AF2]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
                                     </svg>
-                                ), 
-                                title: "Innovation", 
+                                ),
+                                title: "Innovation",
                                 desc: "Continuously improving healthcare solutions through research and cutting-edge technology.",
                                 bg: "bg-[#EBF5FB]",
-                                delay: "delay-300" 
+                                delay: "delay-300"
                             },
-                            { 
+                            {
                                 icon: (
                                     <svg className="w-7 h-7 text-[#83C24D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                                     </svg>
-                                ), 
-                                title: "Commitment", 
+                                ),
+                                title: "Commitment",
                                 desc: "Focused on long-term impact and reliability for sustainable global health outcomes.",
                                 bg: "bg-[#F4F9F0]",
-                                delay: "delay-450" 
+                                delay: "delay-450"
                             }
                         ].map((value, i) => (
                             <div key={i} className={`bg-white rounded-2xl p-6 md:p-8 shadow-sm hover:shadow-2xl hover:shadow-blue-900/10 transition-all duration-500 group animate-fade-in-up ${value.delay}`}>
@@ -159,65 +161,78 @@ export default function About() {
                 </div>
             </section>
 
-            {/* Mission & Vision Section */}
-            <section className="bg-white section-pad overflow-hidden">
+
+
+            {/* Why Choose Us Feature Grid */}
+            <section className="section-pad overflow-hidden bg-[#F0FBFF]">
                 <div className="site-shell">
-                    <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
-                        <div className="lg:w-1/2 space-y-12 md:space-y-16 animate-fade-in-up">
-                            <div className="space-y-6">
-                                <div className="flex items-center gap-4">
-                                    <div className="w-12 h-12 bg-[#F4F9F0] rounded-xl flex items-center justify-center text-[#83C24D]">
-                                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                        </svg>
-                                    </div>
-                                    <h2 className="text-[26px] md:text-[36px] font-bold text-slate-900">Our Mission</h2>
-                                </div>
-                                <p className="text-slate-600 text-[16px] md:text-[18px] leading-relaxed max-w-xl">
-                                    To deliver high-quality, safe, and effective medicines that improve patient outcomes and build long-term trust.
-                                </p>
-                            </div>
-
-                            <div className="space-y-6">
-                                <div className="flex items-center gap-4">
-                                    <div className="w-12 h-12 bg-[#F4F9F0] rounded-xl flex items-center justify-center text-[#83C24D]">
-                                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                                        </svg>
-                                    </div>
-                                    <h2 className="text-[26px] md:text-[36px] font-bold text-slate-900">Our Vision</h2>
-                                </div>
-                                <p className="text-slate-600 text-[16px] md:text-[18px] leading-relaxed max-w-xl">
-                                    To become a trusted pharmaceutical company known for quality, innovation, and consistent healthcare solutions.
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div className="lg:w-1/2 relative animate-fade-in-up delay-300 w-full mt-12 lg:mt-0">
-                            <div className="aspect-[4/3] sm:aspect-square lg:aspect-square bg-gradient-to-br from-slate-100 via-slate-200 to-slate-300 rounded-[30px] md:rounded-[40px] shadow-inner relative overflow-hidden group">
-                                <div className="absolute inset-0 bg-blue-500/5 mix-blend-overlay"></div>
-                                <img 
-                                    src={missionVision} 
-                                    alt="Caprion Mission and Vision" 
-                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"
-                                />
-                            </div>
-
-                            <div className="absolute -bottom-8 md:-bottom-10 -right-4 md:-right-10 bg-white p-6 md:p-10 rounded-[20px] md:rounded-[30px] shadow-2xl shadow-blue-900/10 border border-slate-50 transform hover:-translate-y-2 transition-transform duration-500 z-10 max-w-[180px] md:max-w-none">
-                                <div className="text-center">
-                                    <div className="text-[32px] md:text-[50px] font-bold text-[#8cc63f] leading-none mb-1 md:mb-2">2030</div>
-                                    <div className="text-[9px] md:text-[13px] font-bold tracking-[0.15em] md:tracking-[0.25em] text-slate-400 uppercase whitespace-normal md:whitespace-nowrap">
-                                        GLOBAL <br className="hidden md:block" /> LEADERSHIP TARGET
-                                    </div>
-                                </div>
+                    {/* Section Header */}
+                    <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12 lg:mb-24 text-center lg:text-left">
+                        <div className="max-w-xl mx-auto lg:mx-0">
+                            <span className="section-kicker block mb-4">INSTITUTIONAL VALUE</span>
+                            <div className="relative inline-block">
+                                <h2 className="section-title text-[32px] sm:text-[40px] md:text-[48px] lg:text-[56px] !mt-0 leading-tight">
+                                    Why <span className="relative">Choose<div className="absolute -bottom-1 md:-bottom-2 left-0 w-full h-[4px] md:h-[6px] bg-[#8cc63f] rounded-full"></div></span> Us
+                                </h2>
                             </div>
                         </div>
+                        <div className="lg:max-w-md lg:text-right">
+                            <p className="text-[16px] md:text-[18px] text-slate-500 italic font-medium leading-relaxed">
+                                "Precision is not just a metric; it is our mandate to the global patient community we serve every day."
+                            </p>
+                        </div>
+                    </div>
 
+                    {/* Features Grid */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8">
+                        {/* Feature 1 */}
+                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up">
+                            <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F0F7FF] rounded-2xl flex items-center justify-center mb-8 md:mb-10 group-hover:scale-110 group-hover:rotate-6 transition-transform">
+                                <img src={why01} alt="Quality" className="w-6 h-6 object-contain" />
+                            </div>
+                            <h3 className="text-[20px] md:text-[22px] font-bold text-slate-900 mb-4 md:mb-6 leading-tight">Uncompromising <br className="hidden md:block" /> Quality</h3>
+                            <p className="text-slate-500 leading-relaxed text-sm md:text-[15px]">
+                                Our rigorous multi-tier verification process ensures that clinical data maintains the highest integrity from raw collection to final editorial publication.
+                            </p>
+                        </div>
+
+                        {/* Feature 2 */}
+                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up delay-100">
+                            <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F4F9F0] rounded-2xl flex items-center justify-center mb-8 md:mb-10 group-hover:scale-110 group-hover:-rotate-6 transition-transform">
+                                <img src={why02} alt="Patient Centric" className="w-6 h-6 object-contain" />
+                            </div>
+                            <h3 className="text-[20px] md:text-[22px] font-bold text-slate-900 mb-4 md:mb-6 leading-tight">Patient-Centric <br className="hidden md:block" /> Approach</h3>
+                            <p className="text-slate-500 leading-relaxed text-sm md:text-[15px]">
+                                We bridge the gap between complex science and human outcomes, prioritizing accessibility and ethical transparency in every research phase.
+                            </p>
+                        </div>
+
+                        {/* Feature 3 */}
+                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up delay-200">
+                            <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F0F7FF] rounded-2xl flex items-center justify-center mb-8 md:mb-10 group-hover:scale-110 group-hover:rotate-6 transition-transform">
+                                <img src={why03} alt="R&D" className="w-6 h-6 object-contain" />
+                            </div>
+                            <h3 className="text-[20px] md:text-[22px] font-bold text-slate-900 mb-4 md:mb-6 leading-tight">Innovative <br className="hidden md:block" /> R&D</h3>
+                            <p className="text-slate-500 leading-relaxed text-sm md:text-[15px]">
+                                Leveraging AI-driven predictive modeling and molecular screening to accelerate the development of next-generation life-saving therapeutics.
+                            </p>
+                        </div>
+
+                        {/* Feature 4 */}
+                        <div className="bg-white rounded-[1.5rem] md:rounded-[2rem] p-8 border border-slate-50 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 group animate-fade-in-up delay-300">
+                            <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F0F7FF] rounded-2xl flex items-center justify-center mb-8 md:mb-10 group-hover:scale-110 group-hover:-rotate-6 transition-transform">
+                                <img src={why04} alt="Distribution" className="w-6 h-6 object-contain" />
+                            </div>
+                            <h3 className="text-[20px] md:text-[22px] font-bold text-slate-900 mb-4 md:mb-6 leading-tight">Global <br className="hidden md:block" /> Distribution</h3>
+                            <p className="text-slate-500 leading-relaxed text-sm md:text-[15px]">
+                                Seamless logistical integration across six continents ensures that critical medical insights and treatments reach providers exactly when needed.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
+
+
 
 
             <Contact />
